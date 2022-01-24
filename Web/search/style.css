@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav {
+    float: right;
+    vertical-align: middle;
+    padding-left: 15px;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+    white-space: nowrap;
+    align-self: flex-end;
+    margin: 30px 20px 30px 0px;
+}
+
+h3 {
+    display: inline;
+    margin-right: 30px;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    max-width: 584px;
+}
+
+#search-bar {
+    align-self: center;
+    margin-top: 15%;
+}
